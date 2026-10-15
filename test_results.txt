@@ -1,23 +1,4 @@
-﻿**********************
-Windows PowerShell transcript start
-Start time: 20261015161252
-Username: JACKS\Joy.Okolo
-RunAs User: JACKS\Joy.Okolo
-Configuration Name: 
-Machine: MXL1014GQZ (Microsoft Windows NT 10.0.26100.0)
-Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
-Process ID: 17724
-PSVersion: 5.1.26100.9711
-PSEdition: Desktop
-PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
-BuildVersion: 10.0.26100.9711
-CLRVersion: 4.0.30319.42000
-WSManStackVersion: 3.0
-PSRemotingProtocolVersion: 2.3
-SerializationVersion: 1.1.0.1
-**********************
-Transcript started, output file is test_results.txt
-PS C:\Users\Joy.Okolo\Exception Handling & File Handling Assignment> cd "C:\Users\Joy.Okolo\Exception Handling & File Handling Assignment"; "1","2","6" | python main.py
+"1","2","6" | python main.py
 Record: ,Henry Uche,48,55,60 | Reason: Missing student ID
 Record: ST014,Grace Bello,-7,60,65 | Reason: Grace Bello Python score is -7, it has to be between 0 and 100 to become valid
 Record: ST006,Seun Lamina,105,74,80 | Reason: Seun Lamina Python score is 105, it has to be between 0 and 100 to become valid
@@ -69,7 +50,8 @@ Enter your choice (1-6): ['ST001', 'Chiamaka Nnedi', 78, 84, 91]
 5. Generate report
 6. Exit
 Enter your choice (1-6): Goodbye!
-PS C:\Users\Joy.Okolo\Exception Handling & File Handling Assignment> cd "C:\Users\Joy.Okolo\Exception Handling & File Handling Assignment"; Get-Content errors.log
+
+Get-Content errors.log
 Record: ST998,,70,70,70 | Reason: Missing student name
 Record: ST006,Seun Lamina,105,74,80 | Reason: Seun Lamina Python score is 105, it has to be between 0 and 100 to become valid
 Record: ST007,Chika Eze,N/A,68,75 | Reason: Python score 'N/A' is not a valid number
@@ -234,17 +216,17 @@ Record: ST003,Michael Ade,73,80,76 | Reason: Duplicate student ID ST003
 Record: ST011,,78,84,90 | Reason: Missing student name
 Record: ,Henry Uche,48,55,60 | Reason: Missing student ID
 Record: ST014,Grace Bello,-7,60,65 | Reason: Grace Bello Python score is -7, it has to be between 0 and 100 to become valid
-PS C:\Users\Joy.Okolo\Exception Handling & File Handling Assignment> cd "C:\Users\Joy.Okolo\Exception Handling & File Handling Assignment"; "3","ST002","6" | python main.py
+"3","ST002","6" | python main.py
 
-PS C:\Users\Joy.Okolo\Exception Handling & File Handling Assignment> cd "C:\Users\Joy.Okolo\Exception Handling & File Handling Assignment"; "3","ST999","6" | python main.py
+"3","ST999","6" | python main.py
 
-PS C:\Users\Joy.Okolo\Exception Handling & File Handling Assignment> cd "C:\Users\Joy.Okolo\Exception Handling & File Handling Assignment"; "4","st001","Dup","50","50","50","6" | python main.py
+"4","st001","Dup","50","50","50","6" | python main.py
 
-PS C:\Users\Joy.Okolo\Exception Handling & File Handling Assignment> cd "C:\Users\Joy.Okolo\Exception Handling & File Handling Assignment"; "4","st001","Dup","50","50","50","6" | python main.py
+"4","st001","Dup","50","50","50","6" | python main.py
 
-PS C:\Users\Joy.Okolo\Exception Handling & File Handling Assignment> cd "C:\Users\Joy.Okolo\Exception Handling & File Handling Assignment"; "abc","9","6" | python main.py
+"abc","9","6" | python main.py
 
-PS C:\Users\Joy.Okolo\Exception Handling & File Handling Assignment> cd "C:\Users\Joy.Okolo\Exception Handling & File Handling Assignment"; "5","6" | python main.py; Get-Content results_report.txt
+"5","6" | python main.py; Get-Content results_report.txt
 
 STUDENT RESULTS REPORT
 
@@ -271,8 +253,3 @@ Class average: 77.48
 Highest average: 94.67
 Lowest average: 62.00
 Top student: Jane Okoro
-PS C:\Users\Joy.Okolo\Exception Handling & File Handling Assignment> Stop-Transcript
-**********************
-Windows PowerShell transcript end
-End time: 20261015161448
-**********************
