@@ -1,0 +1,25 @@
+STUDENT RESULTS REPORT
+
+ST001, Chiamaka Nnedi, Python: 78, SQL: 84, Excel: 91, Average: 84.33, Grade: B, Category: Very Good
+ST002, Joy Okolo, Python: 65, SQL: 72, Excel: 69, Average: 68.67, Grade: D, Category: Average
+ST003, Imole Ade, Python: 90, SQL: 88, Excel: 94, Average: 90.67, Grade: A, Category: Excellent
+ST004, Peace Peter, Python: 55, SQL: 61, Excel: 70, Average: 62.00, Grade: D, Category: Average
+ST005, Julia Aku, Python: 81, SQL: 77, Excel: 86, Average: 81.33, Grade: B, Category: Very Good
+ST009, Daniel John, Python: 71, SQL: 65, Excel: 79, Average: 71.67, Grade: C, Category: Good
+ST010, Ruth Offiah, Python: 88, SQL: 92, Excel: 90, Average: 90.00, Grade: A, Category: Excellent
+ST012, Peter Amos, Python: 66, SQL: 70, Excel: 74, Average: 70.00, Grade: C, Category: Good
+ST013, Jane Okoro, Python: 95, SQL: 93, Excel: 96, Average: 94.67, Grade: A, Category: Excellent
+ST015, Sullivan Chime, Python: 76, SQL: 82, Excel: 79, Average: 79.00, Grade: C, Category: Good
+ST016, Ola Dopamu, Python: 69, SQL: 73, Excel: 77, Average: 73.00, Grade: C, Category: Good
+ST017, Joy James, Python: 84, SQL: 87, Excel: 89, Average: 86.67, Grade: B, Category: Very Good
+ST018, Samuel Olaniyi, Python: 57, SQL: 63, Excel: 68, Average: 62.67, Grade: D, Category: Average
+ST019, Peller Adelaja, Python: 66, SQL: 70, Excel: 74, Average: 70.00, Grade: C, Category: Good
+
+SUMMARY
+Total records read: 22
+Valid records: 14
+Invalid records: 8
+Class average: 77.48
+Highest average: 94.67
+Lowest average: 62.00
+Top student: Jane Okoro

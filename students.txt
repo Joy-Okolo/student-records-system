@@ -1,0 +1,22 @@
+ST001,Chiamaka Nnedi,78,84,91
+ST002,Joy Okolo,65,72,69
+ST003,Imole Ade,90,88,94
+ST004,Peace Peter,55,61,70
+ST005,Julia Aku,81,77,86
+ST006,Seun Lamina,105,74,80
+ST007,Chika Eze,N/A,68,75
+ST008,Esther Musa,90,82
+
+ST009,Daniel John,71,65,79
+ST010,Ruth Offiah,88,92,90
+ST003,Michael Ade,73,80,76
+ST011,,78,84,90
+ST012,Peter Amos,66,70,74
+ST013,Jane Okoro,95,93,96
+,Henry Uche,48,55,60
+ST014,Grace Bello,-7,60,65
+ST015,Sullivan Chime,76,82,79
+ST016,Ola Dopamu,69,73,77
+ST017,Joy James,84,87,89
+ST018,Samuel Olaniyi,57,63,68
+ST019,Peller Adelaja,66,70,74
