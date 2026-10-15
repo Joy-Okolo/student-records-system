@@ -1,0 +1,278 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261015161252
+Username: JACKS\Joy.Okolo
+RunAs User: JACKS\Joy.Okolo
+Configuration Name: 
+Machine: MXL1014GQZ (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 17724
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is test_results.txt
+PS C:\Users\Joy.Okolo\Exception Handling & File Handling Assignment> cd "C:\Users\Joy.Okolo\Exception Handling & File Handling Assignment"; "1","2","6" | python main.py
+Record: ,Henry Uche,48,55,60 | Reason: Missing student ID
+Record: ST014,Grace Bello,-7,60,65 | Reason: Grace Bello Python score is -7, it has to be between 0 and 100 to become valid
+Record: ST006,Seun Lamina,105,74,80 | Reason: Seun Lamina Python score is 105, it has to be between 0 and 100 to become valid
+Record: ST007,Chika Eze,N/A,68,75 | Reason: Python score 'N/A' is not a valid number
+Record: ST008,Esther Musa,90,82 | Reason: Expected 5 fields but found 4
+Record:  | Reason: Blank line
+Record: ST003,Michael Ade,73,80,76 | Reason: Duplicate student ID ST003
+Record: ST011,,78,84,90 | Reason: Missing student name
+Record: ,Henry Uche,48,55,60 | Reason: Missing student ID
+Record: ST014,Grace Bello,-7,60,65 | Reason: Grace Bello Python score is -7, it has to be between 0 and 100 to become valid
+Record: ST998,,70,70,70 | Reason: Missing student name
+
+['ST001', 'Amaka Okafor', 78, 84, 91]
+Loaded 15 valid and 8 invalid records.
+Student loading finished.
+1. Create/reset sample data
+2. View all students
+3. Search for a student by ID
+4. Add a new student
+5. Generate report
+6. Exit
+Enter your choice (1-6): Sample file created/reset successfully.
+Loaded 14 valid and 8 invalid records.
+Student loading finished.
+1. Create/reset sample data
+2. View all students
+3. Search for a student by ID
+4. Add a new student
+5. Generate report
+6. Exit
+Enter your choice (1-6): ['ST001', 'Chiamaka Nnedi', 78, 84, 91]
+['ST002', 'Joy Okolo', 65, 72, 69]
+['ST003', 'Imole Ade', 90, 88, 94]
+['ST004', 'Peace Peter', 55, 61, 70]
+['ST005', 'Julia Aku', 81, 77, 86]
+['ST009', 'Daniel John', 71, 65, 79]
+['ST010', 'Ruth Offiah', 88, 92, 90]
+['ST012', 'Peter Amos', 66, 70, 74]
+['ST013', 'Jane Okoro', 95, 93, 96]
+['ST015', 'Sullivan Chime', 76, 82, 79]
+['ST016', 'Ola Dopamu', 69, 73, 77]
+['ST017', 'Joy James', 84, 87, 89]
+['ST018', 'Samuel Olaniyi', 57, 63, 68]
+['ST019', 'Peller Adelaja', 66, 70, 74]
+1. Create/reset sample data
+2. View all students
+3. Search for a student by ID
+4. Add a new student
+5. Generate report
+6. Exit
+Enter your choice (1-6): Goodbye!
+PS C:\Users\Joy.Okolo\Exception Handling & File Handling Assignment> cd "C:\Users\Joy.Okolo\Exception Handling & File Handling Assignment"; Get-Content errors.log
+Record: ST998,,70,70,70 | Reason: Missing student name
+Record: ST006,Seun Lamina,105,74,80 | Reason: Seun Lamina Python score is 105, it has to be between 0 and 100 to become valid
+Record: ST007,Chika Eze,N/A,68,75 | Reason: Python score 'N/A' is not a valid number
+Record: ST008,Esther Musa,90,82 | Reason: Expected 5 fields but found 4
+Record:  | Reason: Blank line
+Record: ST003,Michael Ade,73,80,76 | Reason: Duplicate student ID ST003
+Record: ST011,,78,84,90 | Reason: Missing student name
+Record: ,Henry Uche,48,55,60 | Reason: Missing student ID
+Record:  | Reason: Blank line
+Record: ST006,Seun Lamina,105,74,80 | Reason: Seun Lamina Python score is 105, it has to be between 0 and 100 to become valid
+Record: ST007,Chika Eze,N/A,68,75 | Reason: Python score 'N/A' is not a valid number
+Record: ST008,Esther Musa,90,82 | Reason: Expected 5 fields but found 4
+Record:  | Reason: Blank line
+Record: ST003,Michael Ade,73,80,76 | Reason: Duplicate student ID ST003
+Record: ST011,,78,84,90 | Reason: Missing student name
+Record: ,Henry Uche,48,55,60 | Reason: Missing student ID
+Record:  | Reason: Blank line
+Record: ST006,Seun Lamina,105,74,80 | Reason: Seun Lamina Python score is 105, it has to be between 0 and 100 to become valid
+Record: ST007,Chika Eze,N/A,68,75 | Reason: Python score 'N/A' is not a valid number
+Record: ST008,Esther Musa,90,82 | Reason: Expected 5 fields but found 4
+Record:  | Reason: Blank line
+Record: ST003,Michael Ade,73,80,76 | Reason: Duplicate student ID ST003
+Record: ST011,,78,84,90 | Reason: Missing student name
+Record: ,Henry Uche,48,55,60 | Reason: Missing student ID
+Record: ST014,Grace Bello,-7,60,65 | Reason: Grace Bello Python score is -7, it has to be between 0 and 100 to become valid
+Record: ST998,,70,70,70 | Reason: Missing student name
+Record: ST006,Seun Lamina,105,74,80 | Reason: Seun Lamina Python score is 105, it has to be between 0 and 100 to become valid
+Record: ST007,Chika Eze,N/A,68,75 | Reason: Python score 'N/A' is not a valid number
+Record: ST008,Esther Musa,90,82 | Reason: Expected 5 fields but found 4
+Record:  | Reason: Blank line
+Record: ST003,Michael Ade,73,80,76 | Reason: Duplicate student ID ST003
+Record: ST011,,78,84,90 | Reason: Missing student name
+Record: ,Henry Uche,48,55,60 | Reason: Missing student ID
+Record: ST014,Grace Bello,-7,60,65 | Reason: Grace Bello Python score is -7, it has to be between 0 and 100 to become valid
+Record: ST006,Seun Lamina,105,74,80 | Reason: Seun Lamina Python score is 105, it has to be between 0 and 100 to become valid
+Record: ST007,Chika Eze,N/A,68,75 | Reason: Python score 'N/A' is not a valid number
+Record: ST008,Esther Musa,90,82 | Reason: Expected 5 fields but found 4
+Record:  | Reason: Blank line
+Record: ST003,Michael Ade,73,80,76 | Reason: Duplicate student ID ST003
+Record: ST011,,78,84,90 | Reason: Missing student name
+Record: ,Henry Uche,48,55,60 | Reason: Missing student ID
+Record: ST014,Grace Bello,-7,60,65 | Reason: Grace Bello Python score is -7, it has to be between 0 and 100 to become valid
+Record: ST998,,70,70,70 | Reason: Missing student name
+Record: ST006,Seun Lamina,105,74,80 | Reason: Seun Lamina Python score is 105, it has to be between 0 and 100 to become valid
+Record: ST007,Chika Eze,N/A,68,75 | Reason: Python score 'N/A' is not a valid number
+Record: ST008,Esther Musa,90,82 | Reason: Expected 5 fields but found 4
+Record:  | Reason: Blank line
+Record: ST003,Michael Ade,73,80,76 | Reason: Duplicate student ID ST003
+Record: ST011,,78,84,90 | Reason: Missing student name
+Record: ,Henry Uche,48,55,60 | Reason: Missing student ID
+Record: ST014,Grace Bello,-7,60,65 | Reason: Grace Bello Python score is -7, it has to be between 0 and 100 to become valid
+Record: ST006,Seun Lamina,105,74,80 | Reason: Seun Lamina Python score is 105, it has to be between 0 and 100 to become valid
+Record: ST007,Chika Eze,N/A,68,75 | Reason: Python score 'N/A' is not a valid number
+Record: ST008,Esther Musa,90,82 | Reason: Expected 5 fields but found 4
+Record:  | Reason: Blank line
+Record: ST003,Michael Ade,73,80,76 | Reason: Duplicate student ID ST003
+Record: ST011,,78,84,90 | Reason: Missing student name
+Record: ,Henry Uche,48,55,60 | Reason: Missing student ID
+Record: ST014,Grace Bello,-7,60,65 | Reason: Grace Bello Python score is -7, it has to be between 0 and 100 to become valid
+Record: ST998,,70,70,70 | Reason: Missing student name
+Record: ST006,Seun Lamina,105,74,80 | Reason: Seun Lamina Python score is 105, it has to be between 0 and 100 to become valid
+Record: ST007,Chika Eze,N/A,68,75 | Reason: Python score 'N/A' is not a valid number
+Record: ST008,Esther Musa,90,82 | Reason: Expected 5 fields but found 4
+Record:  | Reason: Blank line
+Record: ST003,Michael Ade,73,80,76 | Reason: Duplicate student ID ST003
+Record: ST011,,78,84,90 | Reason: Missing student name
+Record: ,Henry Uche,48,55,60 | Reason: Missing student ID
+Record: ST014,Grace Bello,-7,60,65 | Reason: Grace Bello Python score is -7, it has to be between 0 and 100 to become valid
+Record: ST006,Seun Lamina,105,74,80 | Reason: Seun Lamina Python score is 105, it has to be between 0 and 100 to become valid
+Record: ST007,Chika Eze,N/A,68,75 | Reason: Python score 'N/A' is not a valid number
+Record: ST008,Esther Musa,90,82 | Reason: Expected 5 fields but found 4
+Record:  | Reason: Blank line
+Record: ST003,Michael Ade,73,80,76 | Reason: Duplicate student ID ST003
+Record: ST011,,78,84,90 | Reason: Missing student name
+Record: ,Henry Uche,48,55,60 | Reason: Missing student ID
+Record: ST014,Grace Bello,-7,60,65 | Reason: Grace Bello Python score is -7, it has to be between 0 and 100 to become valid
+Record: ST020,Ann Lee,70,80,90 | Reason: Duplicate student ID ST020
+Record: ST998,,70,70,70 | Reason: Missing student name
+Record: ST006,Seun Lamina,105,74,80 | Reason: Seun Lamina Python score is 105, it has to be between 0 and 100 to become valid
+Record: ST007,Chika Eze,N/A,68,75 | Reason: Python score 'N/A' is not a valid number
+Record: ST008,Esther Musa,90,82 | Reason: Expected 5 fields but found 4
+Record:  | Reason: Blank line
+Record: ST003,Michael Ade,73,80,76 | Reason: Duplicate student ID ST003
+Record: ST011,,78,84,90 | Reason: Missing student name
+Record: ,Henry Uche,48,55,60 | Reason: Missing student ID
+Record: ST014,Grace Bello,-7,60,65 | Reason: Grace Bello Python score is -7, it has to be between 0 and 100 to become valid
+Record: ST006,Seun Lamina,105,74,80 | Reason: Seun Lamina Python score is 105, it has to be between 0 and 100 to become valid
+Record: ST007,Chika Eze,N/A,68,75 | Reason: Python score 'N/A' is not a valid number
+Record: ST008,Esther Musa,90,82 | Reason: Expected 5 fields but found 4
+Record:  | Reason: Blank line
+Record: ST003,Michael Ade,73,80,76 | Reason: Duplicate student ID ST003
+Record: ST011,,78,84,90 | Reason: Missing student name
+Record: ,Henry Uche,48,55,60 | Reason: Missing student ID
+Record: ST014,Grace Bello,-7,60,65 | Reason: Grace Bello Python score is -7, it has to be between 0 and 100 to become valid
+Record: ST020,Ann Lee,70,80,90 | Reason: Duplicate student ID ST020
+Record: ST998,,70,70,70 | Reason: Missing student name
+Record: ST006,Seun Lamina,105,74,80 | Reason: Seun Lamina Python score is 105, it has to be between 0 and 100 to become valid
+Record: ST007,Chika Eze,N/A,68,75 | Reason: Python score 'N/A' is not a valid number
+Record: ST008,Esther Musa,90,82 | Reason: Expected 5 fields but found 4
+Record:  | Reason: Blank line
+Record: ST003,Michael Ade,73,80,76 | Reason: Duplicate student ID ST003
+Record: ST011,,78,84,90 | Reason: Missing student name
+Record: ,Henry Uche,48,55,60 | Reason: Missing student ID
+Record: ST014,Grace Bello,-7,60,65 | Reason: Grace Bello Python score is -7, it has to be between 0 and 100 to become valid
+Record: ST006,Seun Lamina,105,74,80 | Reason: Seun Lamina Python score is 105, it has to be between 0 and 100 to become valid
+Record: ST007,Chika Eze,N/A,68,75 | Reason: Python score 'N/A' is not a valid number
+Record: ST008,Esther Musa,90,82 | Reason: Expected 5 fields but found 4
+Record:  | Reason: Blank line
+Record: ST003,Michael Ade,73,80,76 | Reason: Duplicate student ID ST003
+Record: ST011,,78,84,90 | Reason: Missing student name
+Record: ,Henry Uche,48,55,60 | Reason: Missing student ID
+Record: ST014,Grace Bello,-7,60,65 | Reason: Grace Bello Python score is -7, it has to be between 0 and 100 to become valid
+Record: st001,Dup,50,50,50 | Reason: Duplicate student ID ST001
+Record: ST998,,70,70,70 | Reason: Missing student name
+Record: ST006,Seun Lamina,105,74,80 | Reason: Seun Lamina Python score is 105, it has to be between 0 and 100 to become valid
+Record: ST007,Chika Eze,N/A,68,75 | Reason: Python score 'N/A' is not a valid number
+Record: ST008,Esther Musa,90,82 | Reason: Expected 5 fields but found 4
+Record:  | Reason: Blank line
+Record: ST003,Michael Ade,73,80,76 | Reason: Duplicate student ID ST003
+Record: ST011,,78,84,90 | Reason: Missing student name
+Record: ,Henry Uche,48,55,60 | Reason: Missing student ID
+Record: ST014,Grace Bello,-7,60,65 | Reason: Grace Bello Python score is -7, it has to be between 0 and 100 to become valid
+Record: ST006,Seun Lamina,105,74,80 | Reason: Seun Lamina Python score is 105, it has to be between 0 and 100 to become valid
+Record: ST007,Chika Eze,N/A,68,75 | Reason: Python score 'N/A' is not a valid number
+Record: ST008,Esther Musa,90,82 | Reason: Expected 5 fields but found 4
+Record:  | Reason: Blank line
+Record: ST003,Michael Ade,73,80,76 | Reason: Duplicate student ID ST003
+Record: ST011,,78,84,90 | Reason: Missing student name
+Record: ,Henry Uche,48,55,60 | Reason: Missing student ID
+Record: ST014,Grace Bello,-7,60,65 | Reason: Grace Bello Python score is -7, it has to be between 0 and 100 to become valid
+Record: ST998,,70,70,70 | Reason: Missing student name
+Record: ST006,Seun Lamina,105,74,80 | Reason: Seun Lamina Python score is 105, it has to be between 0 and 100 to become valid
+Record: ST007,Chika Eze,N/A,68,75 | Reason: Python score 'N/A' is not a valid number
+Record: ST008,Esther Musa,90,82 | Reason: Expected 5 fields but found 4
+Record:  | Reason: Blank line
+Record: ST003,Michael Ade,73,80,76 | Reason: Duplicate student ID ST003
+Record: ST011,,78,84,90 | Reason: Missing student name
+Record: ,Henry Uche,48,55,60 | Reason: Missing student ID
+Record: ST014,Grace Bello,-7,60,65 | Reason: Grace Bello Python score is -7, it has to be between 0 and 100 to become valid
+Record: ST006,Seun Lamina,105,74,80 | Reason: Seun Lamina Python score is 105, it has to be between 0 and 100 to become valid
+Record: ST007,Chika Eze,N/A,68,75 | Reason: Python score 'N/A' is not a valid number
+Record: ST008,Esther Musa,90,82 | Reason: Expected 5 fields but found 4
+Record:  | Reason: Blank line
+Record: ST003,Michael Ade,73,80,76 | Reason: Duplicate student ID ST003
+Record: ST011,,78,84,90 | Reason: Missing student name
+Record: ,Henry Uche,48,55,60 | Reason: Missing student ID
+Record: ST014,Grace Bello,-7,60,65 | Reason: Grace Bello Python score is -7, it has to be between 0 and 100 to become valid
+Record: ST998,,70,70,70 | Reason: Missing student name
+Record: ST006,Seun Lamina,105,74,80 | Reason: Seun Lamina Python score is 105, it has to be between 0 and 100 to become valid
+Record: ST007,Chika Eze,N/A,68,75 | Reason: Python score 'N/A' is not a valid number
+Record: ST008,Esther Musa,90,82 | Reason: Expected 5 fields but found 4
+Record:  | Reason: Blank line
+Record: ST003,Michael Ade,73,80,76 | Reason: Duplicate student ID ST003
+Record: ST011,,78,84,90 | Reason: Missing student name
+Record: ,Henry Uche,48,55,60 | Reason: Missing student ID
+Record: ST014,Grace Bello,-7,60,65 | Reason: Grace Bello Python score is -7, it has to be between 0 and 100 to become valid
+Record: ST006,Seun Lamina,105,74,80 | Reason: Seun Lamina Python score is 105, it has to be between 0 and 100 to become valid
+Record: ST007,Chika Eze,N/A,68,75 | Reason: Python score 'N/A' is not a valid number
+Record: ST008,Esther Musa,90,82 | Reason: Expected 5 fields but found 4
+Record:  | Reason: Blank line
+Record: ST003,Michael Ade,73,80,76 | Reason: Duplicate student ID ST003
+Record: ST011,,78,84,90 | Reason: Missing student name
+Record: ,Henry Uche,48,55,60 | Reason: Missing student ID
+Record: ST014,Grace Bello,-7,60,65 | Reason: Grace Bello Python score is -7, it has to be between 0 and 100 to become valid
+PS C:\Users\Joy.Okolo\Exception Handling & File Handling Assignment> cd "C:\Users\Joy.Okolo\Exception Handling & File Handling Assignment"; "3","ST002","6" | python main.py
+
+PS C:\Users\Joy.Okolo\Exception Handling & File Handling Assignment> cd "C:\Users\Joy.Okolo\Exception Handling & File Handling Assignment"; "3","ST999","6" | python main.py
+
+PS C:\Users\Joy.Okolo\Exception Handling & File Handling Assignment> cd "C:\Users\Joy.Okolo\Exception Handling & File Handling Assignment"; "4","st001","Dup","50","50","50","6" | python main.py
+
+PS C:\Users\Joy.Okolo\Exception Handling & File Handling Assignment> cd "C:\Users\Joy.Okolo\Exception Handling & File Handling Assignment"; "4","st001","Dup","50","50","50","6" | python main.py
+
+PS C:\Users\Joy.Okolo\Exception Handling & File Handling Assignment> cd "C:\Users\Joy.Okolo\Exception Handling & File Handling Assignment"; "abc","9","6" | python main.py
+
+PS C:\Users\Joy.Okolo\Exception Handling & File Handling Assignment> cd "C:\Users\Joy.Okolo\Exception Handling & File Handling Assignment"; "5","6" | python main.py; Get-Content results_report.txt
+
+STUDENT RESULTS REPORT
+
+ST001, Chiamaka Nnedi, Python: 78, SQL: 84, Excel: 91, Average: 84.33, Grade: B, Category: Very Good
+ST002, Joy Okolo, Python: 65, SQL: 72, Excel: 69, Average: 68.67, Grade: D, Category: Average
+ST003, Imole Ade, Python: 90, SQL: 88, Excel: 94, Average: 90.67, Grade: A, Category: Excellent
+ST004, Peace Peter, Python: 55, SQL: 61, Excel: 70, Average: 62.00, Grade: D, Category: Average
+ST005, Julia Aku, Python: 81, SQL: 77, Excel: 86, Average: 81.33, Grade: B, Category: Very Good
+ST009, Daniel John, Python: 71, SQL: 65, Excel: 79, Average: 71.67, Grade: C, Category: Good
+ST010, Ruth Offiah, Python: 88, SQL: 92, Excel: 90, Average: 90.00, Grade: A, Category: Excellent
+ST012, Peter Amos, Python: 66, SQL: 70, Excel: 74, Average: 70.00, Grade: C, Category: Good
+ST013, Jane Okoro, Python: 95, SQL: 93, Excel: 96, Average: 94.67, Grade: A, Category: Excellent
+ST015, Sullivan Chime, Python: 76, SQL: 82, Excel: 79, Average: 79.00, Grade: C, Category: Good
+ST016, Ola Dopamu, Python: 69, SQL: 73, Excel: 77, Average: 73.00, Grade: C, Category: Good
+ST017, Joy James, Python: 84, SQL: 87, Excel: 89, Average: 86.67, Grade: B, Category: Very Good
+ST018, Samuel Olaniyi, Python: 57, SQL: 63, Excel: 68, Average: 62.67, Grade: D, Category: Average
+ST019, Peller Adelaja, Python: 66, SQL: 70, Excel: 74, Average: 70.00, Grade: C, Category: Good
+
+SUMMARY
+Total records read: 22
+Valid records: 14
+Invalid records: 8
+Class average: 77.48
+Highest average: 94.67
+Lowest average: 62.00
+Top student: Jane Okoro
+PS C:\Users\Joy.Okolo\Exception Handling & File Handling Assignment> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20261015161448
+**********************
